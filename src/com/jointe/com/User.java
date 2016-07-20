@@ -20,6 +20,8 @@ public class User {
 
 	private Date lastLogin;
 
+	private Integer isDelte;
+
 	/**
 	 * @return the id
 	 */
@@ -78,6 +80,21 @@ public class User {
 	 */
 	public void setLastLogin(Date lastLogin) {
 		this.lastLogin = lastLogin;
+	}
+
+	/**
+	 * @return the isDelte
+	 */
+	public Integer getIsDelte() {
+		return isDelte;
+	}
+
+	/**
+	 * @param isDelte
+	 *            the isDelte to set
+	 */
+	public void setIsDelte(Integer isDelte) {
+		this.isDelte = isDelte;
 	}
 
 }
