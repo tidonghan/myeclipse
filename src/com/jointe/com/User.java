@@ -96,5 +96,11 @@ public class User {
 	public void setIsDelte(Integer isDelte) {
 		this.isDelte = isDelte;
 	}
+	
+	
+	public String toString(){
+		return "user";
+	}
+	
 
 }
