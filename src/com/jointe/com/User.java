@@ -102,5 +102,9 @@ public class User {
 		return "user";
 	}
 	
-
+ 
+	public  void  print(){
+		System.out.println("hello"+toString());
+	}
+	
 }
